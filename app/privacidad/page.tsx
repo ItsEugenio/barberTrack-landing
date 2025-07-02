@@ -201,7 +201,6 @@ export default function PoliticaPrivacidad() {
                           <li>Crear y gestionar su cuenta de usuario</li>
                           <li>Facilitar reservas de citas</li>
                           <li>Conectar clientes con barberías y barberos</li>
-                          <li>Procesar pagos y transacciones</li>
                           <li>Proporcionar atención al cliente</li>
                         </ul>
                       </div>
@@ -303,8 +302,7 @@ export default function PoliticaPrivacidad() {
                   <div className="mb-6">
                     <h4 className="text-lg font-medium text-gray-800 mb-3">4.2 Limitaciones</h4>
                     <p className="text-gray-700">
-                      Ningún sistema de seguridad es 100% infalible. Aunque tomamos medidas razonables, no podemos
-                      garantizar la seguridad absoluta de su información.
+                      Nos esforzamos al máximo para mantener tu información segura. Aunque ningún sistema es completamente infalible, trabajamos continuamente para proteger tus datos de la mejor manera posible.
                     </p>
                   </div>
                 </div>

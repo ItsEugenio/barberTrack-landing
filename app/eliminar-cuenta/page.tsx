@@ -284,7 +284,7 @@ export default function EliminarCuenta() {
                 {/* Section 5 */}
                 <div id="tiempos">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-2">
-                    5. Tiempos de Procesamiento
+                    5. Tiempos de 
                   </h2>
 
                   <div className="grid md:grid-cols-2 gap-6">
