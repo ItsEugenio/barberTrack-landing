@@ -340,9 +340,9 @@ export default function EliminarCuenta() {
                       </p>
                     </div>
 
-                    <div className="bg-blue-50 border border-blue-200 p-4 rounded">
-                      <h3 className="text-lg font-semibold text-blue-900 mb-3">🏪 Cuentas de Negocio</h3>
-                      <p className="text-blue-800">
+                    <div className="bg-orange-50 border border-orange-200 p-4 rounded">
+                      <h3 className="text-lg font-semibold text-orange-900 mb-3">🏪 Cuentas de Negocio</h3>
+                      <p className="text-orange-800">
                         Si es propietario de una barbería, la eliminación de su cuenta también eliminará toda la
                         información de su negocio, incluyendo reservas futuras. Asegúrese de notificar a sus clientes
                         con anticipación.
