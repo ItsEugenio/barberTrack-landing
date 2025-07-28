@@ -28,7 +28,7 @@ export const FeaturesSectionDemo = () => {
     {
       title: "Notificaciones Smart",
       description:
-        "Recordatorios automáticos, promociones personalizadas y alertas de disponibilidad en tiempo real para nunca perder una cita.",
+        "Recordatorios automáticos y confirmaciones, actualizaciones y cancelaciones de citas en tiempo real para nunca perder una cita.",
       skeleton: <SkeletonFour />,
       className: "col-span-1 lg:col-span-3 border-b lg:border-none",
     },
@@ -92,32 +92,37 @@ const FeatureDescription = ({ children }: { children?: React.ReactNode }) => {
 export const SkeletonOne = () => {
   return (
     <div className="relative flex py-8 px-2 gap-10 h-full">
-      <div className="w-full  p-5  mx-auto bg-white dark:bg-gray-800 shadow-2xl group h-full">
-        <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-gray-200 dark:from-gray-900 dark:to-gray-800 to-gray-100">
-          <img
-            src="/placeholder.svg?height=300&width=400"
-            alt="Búsqueda de barberías"
-            className="h-full w-full object-cover rounded-xl"
-          />
+      <div className="w-full max-w-[280px] mx-auto">
+        <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
+          <div className="bg-gray-800 rounded-[1.5rem] p-1">
+            <div className="bg-black rounded-[1rem] overflow-hidden">
+              <img
+                src="/mapa.jpeg"
+                alt="Búsqueda de barberías"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
-
-      <div className="absolute bottom-0 z-40 inset-x-0 h-60 bg-gradient-to-t from-gray-900 dark:from-gray-950 via-gray-900 dark:via-gray-950 to-transparent w-full pointer-events-none" />
-      <div className="absolute top-0 z-40 inset-x-0 h-60 bg-gradient-to-b from-gray-900 dark:from-gray-950 via-transparent to-transparent w-full pointer-events-none" />
     </div>
   )
 }
 
 export const SkeletonThree = () => {
   return (
-    <div className="relative flex gap-10  h-full group/image">
-      <div className="w-full  mx-auto bg-transparent dark:bg-transparent group h-full">
-        <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-gray-200 dark:from-gray-900 dark:to-gray-800 to-gray-100">
-          <img
-            src="/placeholder.svg?height=300&width=400"
-            alt="IA Análisis facial"
-            className="h-full w-full object-cover rounded-xl"
-          />
+    <div className="relative flex py-8 px-2 gap-10 h-full">
+      <div className="w-full max-w-[280px] mx-auto">
+        <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
+          <div className="bg-gray-800 rounded-[1.5rem] p-1">
+            <div className="bg-black rounded-[1rem] overflow-hidden">
+              <img
+                src="/estiloIA.jpeg"
+                alt="IA Análisis facial"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -126,18 +131,19 @@ export const SkeletonThree = () => {
 
 export const SkeletonTwo = () => {
   return (
-    <div className="relative flex flex-col items-start p-8 gap-10 h-full overflow-hidden">
-      <div className="flex flex-row -ml-20">
-        <div className="h-24 w-24 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex-shrink-0" />
-        <div className="h-24 w-24 rounded-full bg-gradient-to-r from-blue-400 to-blue-500 flex-shrink-0 -ml-10" />
-        <div className="h-24 w-24 rounded-full bg-gradient-to-r from-blue-300 to-blue-400 flex-shrink-0 -ml-10" />
-      </div>
-      <div className="h-40 w-full rounded-lg bg-gradient-to-br from-gray-200 dark:from-gray-900 dark:to-gray-800 to-gray-100">
-        <img
-          src="/placeholder.svg?height=200&width=300"
-          alt="Calendario de reservas"
-          className="h-full w-full object-cover rounded-lg"
-        />
+    <div className="relative flex py-8 px-2 gap-10 h-full">
+      <div className="w-full max-w-[280px] mx-auto">
+        <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
+          <div className="bg-gray-800 rounded-[1.5rem] p-1">
+            <div className="bg-black rounded-[1rem] overflow-hidden">
+              <img
+                src="/citas.jpeg"
+                alt="Calendario de reservas"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
@@ -145,15 +151,18 @@ export const SkeletonTwo = () => {
 
 export const SkeletonFour = () => {
   return (
-    <div className="h-60 md:h-60  flex flex-col items-center relative bg-transparent dark:bg-transparent mt-10">
-      <div className="absolute top-0 inset-x-0  h-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent blur-2xl" />
-      <div className="flex flex-row justify-center relative z-20">
-        <div className="h-40 w-40 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center">
-          <img
-            src="/placeholder.svg?height=150&width=150"
-            alt="Notificaciones"
-            className="h-32 w-32 object-cover rounded-full"
-          />
+    <div className="relative flex py-8 px-2 gap-10 h-full">
+      <div className="w-full max-w-[280px] mx-auto">
+        <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
+          <div className="bg-gray-800 rounded-[1.5rem] p-1">
+            <div className="bg-black rounded-[1rem] overflow-hidden">
+              <img
+                src="/notificacion.jpeg"
+                alt="Notificaciones"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
