@@ -37,77 +37,77 @@ export default function BarberTrackLanding() {
     {
       title: "Barbería Elite Premium",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Barbería+Elite+Premium",
+      thumbnail: "https://images.fresha.com/lead-images/placeholders/barbershop-26.jpg?class=width-small",
     },
     {
       title: "Style Masters Studio",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Style+Masters+Studio",
+      thumbnail: "https://images.fresha.com/lead-images/placeholders/barbershop-109.jpg?class=width-small",
     },
     {
       title: "Classic Cuts & Shave",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Classic+Cuts+%26+Shave",
+      thumbnail: "https://salvapeluquerostyle.com/wp-content/uploads/barberia-peluqueria-masculina.jpg",
     },
     {
       title: "Modern Barber Co.",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Modern+Barber+Co",
+      thumbnail: "https://images.fresha.com/lead-images/placeholders/barbershop-22.jpg?class=width-small",
     },
     {
       title: "Premium Cuts Salon",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Premium+Cuts+Salon",
+      thumbnail: "https://academiascissors.com.ar/wp-content/uploads/2021/01/shome_perfecc._corte_masculino_con_visagismo_barberia.jpg",
     },
     {
       title: "Urban Style Lounge",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Urban+Style+Lounge",
+      thumbnail: "https://homme.mx/wp-content/uploads/2023/10/cada-cuanto-ir-a-la-barberia-homme-luxury-barbers-01.jpg",
     },
     {
       title: "Gentleman's Club",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Gentleman's+Club",
+      thumbnail: "https://d2zdpiztbgorvt.cloudfront.net/region1/mx/10821/biz_photo/d4eefd434b2a4ff980fb46f587a7d9-garage-barbershop-biz-photo-aae5962039204294b5d832f2d94fba-booksy.jpeg",
     },
     {
       title: "Fresh Cuts Studio",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Fresh+Cuts+Studio",
+      thumbnail: "https://i.pinimg.com/originals/61/b7/33/61b733e038ddceab9af3ad9773304e73.jpg",
     },
     {
       title: "Royal Barber Shop",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Royal+Barber+Shop",
+      thumbnail: "https://mirplaysalon.com/wp-content/uploads/2022/03/98AB5E69-5C69-4898-B317-6EF2BC029CB7.jpeg",
     },
     {
       title: "Trendy Styles Hub",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Trendy+Styles+Hub",
+      thumbnail: "https://i.pinimg.com/originals/20/8a/9f/208a9f70ac717589909fd252fdb972ad.jpg",
     },
     {
       title: "Master Cuts Pro",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Master+Cuts+Pro",
+      thumbnail: "https://i.pinimg.com/736x/19/14/cc/1914cc20e583c27ed8cae2573cebf423.jpg",
     },
     {
       title: "Signature Style Bar",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Signature+Style+Bar",
+      thumbnail: "https://cristianroldan.art/wp-content/uploads/2022/07/Cristales-Barberia-Rotulados-a-Mano-con-Pan-de-Oro.jpg",
     },
     {
       title: "Pro Barber Academy",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Pro+Barber+Academy",
+      thumbnail: "https://laantiguaviruta.com/Media/laantiguaviruta/Blog/barberia-la-antigua-viruta5.jpg",
     },
     {
       title: "Elite Grooming Spa",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Elite+Grooming+Spa",
+      thumbnail: "https://i.pinimg.com/736x/19/14/cc/1914cc20e583c27ed8cae2573cebf423.jpg",
     },
     {
       title: "Luxury Cuts Palace",
       link: "#",
-      thumbnail: "/placeholder.svg?height=600&width=600&text=Luxury+Cuts+Palace",
+      thumbnail: "https://www.designsystem.es/wp-content/uploads/2022/08/decoracion-para-barberia.jpg",
     },
   ]
 
@@ -118,22 +118,83 @@ export default function BarberTrackLanding() {
       description:
         "Encuentra las mejores barberías cerca de ti con nuestro sistema de geolocalización avanzado. Filtra por servicios, precios, calificaciones y disponibilidad en tiempo real. Nuestra IA aprende de tus preferencias para ofrecerte recomendaciones cada vez más precisas.",
       content: (
-        <div className="h-full w-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white rounded-lg">
-          <div className="p-8 text-center">
-            <MapPin className="w-16 h-16 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-2">Barberías Cercanas</h3>
-            <p className="text-sm opacity-90">Encuentra la perfecta para ti</p>
-            <div className="mt-4 space-y-2">
-              <div className="bg-white/20 rounded-lg p-2 text-left">
-                <div className="flex items-center space-x-2">
-                  <Star className="w-4 h-4 text-yellow-300" />
-                  <span className="text-sm font-medium">Barbería Elite - 4.9★</span>
+        <div className="h-full w-full bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 flex items-center justify-center text-white rounded-lg relative overflow-hidden scrollbar-hide">
+          {/* Efecto de fondo */}
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-cyan-500/20"></div>
+          
+          {/* Mock de teléfono compacto */}
+          <div className="relative z-10 w-full h-full flex items-center justify-center p-2">
+            <div className="w-full max-w-[280px] sm:max-w-[320px] md:max-w-[360px]">
+              <div className="bg-gray-900 rounded-[1.5rem] p-1.5 shadow-2xl border border-gray-700">
+                <div className="bg-gray-800 rounded-[1rem] p-0.5">
+                  <div className="bg-black rounded-[0.75rem] overflow-hidden">
+                    {/* Barra de estado */}
+                    <div className="bg-gray-900 h-4 flex items-center justify-between px-2 text-white text-xs">
+                      <span>11:15</span>
+                      <div className="flex items-center space-x-1">
+                        <div className="w-2 h-2 bg-white rounded-sm"></div>
+                        <span>93%</span>
+                      </div>
+                    </div>
+                    
+                    {/* Header de la app */}
+                    <div className="bg-blue-600 px-2 py-1 flex items-center justify-between">
+                      <div className="flex items-center space-x-1">
+                        <MapPin className="w-3 h-3 text-white" />
+                        <span className="text-white text-xs font-medium">Mapa</span>
+                      </div>
+                      <div className="w-3 h-3 bg-white rounded"></div>
+                    </div>
+                    
+                    {/* Mapa simplificado */}
+                    <div className="relative bg-gradient-to-br from-blue-100 to-blue-200 p-2">
+                      {/* Calles */}
+                      <div className="space-y-1 mb-2">
+                        <div className="h-0.5 bg-gray-400 rounded"></div>
+                        <div className="h-0.5 bg-gray-400 rounded w-3/4"></div>
+                        <div className="h-0.5 bg-gray-400 rounded w-1/2"></div>
+                      </div>
+                      
+                      {/* Marcadores */}
+                      <div className="relative">
+                        <div className="absolute top-1 left-2">
+                          <div className="w-4 h-4 bg-blue-600 rounded-full border border-white flex items-center justify-center">
+                            <div className="w-1 h-1 bg-white rounded-sm"></div>
+                          </div>
+                        </div>
+                        <div className="absolute top-3 right-3">
+                          <div className="w-4 h-4 bg-blue-600 rounded-full border border-white flex items-center justify-center">
+                            <div className="w-1 h-1 bg-white rounded-sm"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Lista compacta */}
+                    <div className="bg-white p-2 space-y-1">
+                      <div className="flex items-center justify-between p-1 bg-gray-50 rounded">
+                        <div className="flex items-center space-x-1">
+                          <Star className="w-3 h-3 text-yellow-400" />
+                          <div>
+                            <div className="text-xs font-medium text-gray-900">Barbería Elite</div>
+                            <div className="text-xs text-gray-500">4.9★</div>
+                          </div>
+                        </div>
+                        <div className="text-xs text-blue-600">Disponible</div>
+                      </div>
+                      
+                      <div className="flex items-center justify-between p-1 bg-gray-50 rounded">
+                        <div className="flex items-center space-x-1">
+                          <Star className="w-3 h-3 text-yellow-400" />
+                          <div>
+                            <div className="text-xs font-medium text-gray-900">Style Masters</div>
+                            <div className="text-xs text-gray-500">4.8★</div>
+                          </div>
+                        </div>
+                        <div className="text-xs text-blue-600">Disponible</div>
+                      </div>
                 </div>
               </div>
-              <div className="bg-white/20 rounded-lg p-2 text-left">
-                <div className="flex items-center space-x-2">
-                  <Star className="w-4 h-4 text-yellow-300" />
-                  <span className="text-sm font-medium">Style Masters - 4.8★</span>
                 </div>
               </div>
             </div>
@@ -146,17 +207,85 @@ export default function BarberTrackLanding() {
       description:
         "Agenda tu cita en segundos con nuestro sistema de reservas en tiempo real. Selecciona tu barbero favorito, elige el servicio que necesitas y confirma tu reserva con un solo toque. Sin llamadas, sin esperas, sin complicaciones. Recibe confirmación inmediata y recordatorios automáticos.",
       content: (
-        <div className="h-full w-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white rounded-lg">
-          <div className="p-8 text-center">
-            <Calendar className="w-16 h-16 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-2">Reserva Fácil</h3>
-            <p className="text-sm opacity-90">Tu cita en segundos</p>
-            <div className="mt-4 bg-white/20 rounded-lg p-4">
-              <div className="text-sm text-left space-y-2 font-medium">
-                <div>📅 Hoy, 15:30</div>
-                <div>✂️ Corte + Barba</div>
-                <div>👨‍💼 Carlos Mendoza</div>
-                <div className="bg-green-500 text-white rounded px-2 py-1 text-xs font-semibold">Confirmado</div>
+        <div className="h-full w-full bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 flex items-center justify-center text-white rounded-lg relative overflow-hidden scrollbar-hide">
+          {/* Efecto de fondo */}
+          <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-500/20"></div>
+          
+          {/* Mock de teléfono horizontal con reservas */}
+          <div className="relative z-10 w-full h-full flex items-center justify-center p-4">
+            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+              <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
+                <div className="bg-gray-800 rounded-[1.5rem] p-1">
+                  <div className="bg-black rounded-[1rem] overflow-hidden">
+                    {/* Barra de estado */}
+                    <div className="bg-gray-900 h-4 flex items-center justify-between px-2 text-white text-xs">
+                      <span>11:15</span>
+                      <div className="flex items-center space-x-1">
+                        <div className="w-2 h-2 bg-white rounded-sm"></div>
+                        <span>93%</span>
+                      </div>
+                    </div>
+                    
+                    {/* Header de la app */}
+                    <div className="bg-gradient-to-r from-purple-600 to-pink-600 px-2 py-1 flex items-center justify-between">
+                      <div className="flex items-center space-x-1">
+                        <Calendar className="w-3 h-3 text-white" />
+                        <span className="text-white text-xs font-medium">Citas</span>
+                      </div>
+                      <div className="w-3 h-3 bg-white rounded"></div>
+                    </div>
+                    
+                    {/* Contenido principal */}
+                    <div className="p-2 space-y-2">
+                      {/* Cita actual */}
+                      <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-lg p-2 border border-purple-500/30">
+                        <div className="text-center mb-2">
+                          <div className="text-white font-bold text-xs">Reserva Fácil</div>
+                          <div className="text-purple-300 text-xs">Tu cita en segundos</div>
+                        </div>
+                        
+                        {/* Detalles de la cita */}
+                        <div className="bg-white/10 rounded p-1.5 space-y-1">
+                          <div className="flex items-center space-x-1 text-white text-xs">
+                            <div className="w-3 h-3 bg-white rounded flex items-center justify-center">
+                              <div className="w-1.5 h-1.5 bg-purple-600 rounded-sm"></div>
+                            </div>
+                            <span>Hoy, 15:30</span>
+                          </div>
+                          <div className="flex items-center space-x-1 text-white text-xs">
+                            <div className="w-3 h-3 bg-white rounded flex items-center justify-center">
+                              <div className="w-1.5 h-1.5 bg-purple-600 rounded-sm"></div>
+                            </div>
+                            <span>Corte + Barba</span>
+                          </div>
+                          <div className="flex items-center space-x-1 text-white text-xs">
+                            <div className="w-3 h-3 bg-white rounded flex items-center justify-center">
+                              <div className="w-1.5 h-1.5 bg-purple-600 rounded-sm"></div>
+                            </div>
+                            <span>Carlos Mendoza</span>
+                          </div>
+                          <div className="mt-1">
+                            <div className="bg-green-500 text-white rounded px-1.5 py-0.5 text-xs font-semibold text-center">
+                              Confirmado
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Próxima cita */}
+                      <div className="bg-gray-800 rounded-lg p-2">
+                        <div className="text-white font-semibold text-xs mb-1">Próxima</div>
+                        <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
+                          <div>
+                            <div className="text-white text-xs">Mañana, 10:00</div>
+                            <div className="text-gray-400 text-xs">Corte Clásico</div>
+                          </div>
+                          <div className="text-green-400 text-xs">Confirmado</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -168,18 +297,97 @@ export default function BarberTrackLanding() {
       description:
         "Nuestro sistema de inteligencia artificial analiza tu rostro y recomienda los mejores cortes para ti. Descubre nuevos estilos que realcen tu personalidad y se adapten a tu forma de cara. Tecnología de reconocimiento facial avanzada para recomendaciones precisas y personalizadas.",
       content: (
-        <div className="h-full w-full bg-gradient-to-br from-green-500 to-blue-500 flex items-center justify-center text-white rounded-lg">
-          <div className="p-8 text-center">
-            <Brain className="w-16 h-16 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-2">IA Estilista</h3>
-            <p className="text-sm opacity-90">Recomendaciones personalizadas</p>
-            <div className="mt-4 space-y-2">
-              <div className="bg-white/20 rounded-lg p-2">
-                <div className="text-xs font-medium">Análisis facial completado</div>
-                <div className="text-sm font-bold">Recomendación: Fade Clásico</div>
+        <div className="h-full w-full bg-gradient-to-br from-gray-900 via-green-900 to-gray-900 flex items-center justify-center text-white rounded-lg relative overflow-hidden scrollbar-hide">
+          {/* Efecto de fondo */}
+          <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-blue-500/20"></div>
+          
+          {/* Mock de teléfono horizontal con IA */}
+          <div className="relative z-10 w-full h-full flex items-center justify-center p-4">
+            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+              <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
+                <div className="bg-gray-800 rounded-[1.5rem] p-1">
+                  <div className="bg-black rounded-[1rem] overflow-hidden">
+                    {/* Barra de estado */}
+                    <div className="bg-gray-900 h-4 flex items-center justify-between px-2 text-white text-xs">
+                      <span>11:15</span>
+                      <div className="flex items-center space-x-1">
+                        <div className="w-2 h-2 bg-white rounded-sm"></div>
+                        <span>93%</span>
+                      </div>
+                    </div>
+                    
+                    {/* Header de la app */}
+                    <div className="bg-gradient-to-r from-green-600 to-blue-600 px-2 py-1 flex items-center justify-between">
+                      <div className="flex items-center space-x-1">
+                        <Brain className="w-3 h-3 text-white" />
+                        <span className="text-white text-xs font-medium">IA</span>
+                      </div>
+                      <div className="w-3 h-3 bg-white rounded"></div>
+                    </div>
+                    
+                    {/* Contenido principal */}
+                    <div className="p-2 space-y-2">
+                      {/* Análisis facial */}
+                      <div className="bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-lg p-2 border border-green-500/30">
+                        <div className="flex items-center space-x-2 mb-2">
+                          <div className="w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
+                            <div className="w-2.5 h-2.5 bg-white rounded-sm"></div>
+                          </div>
+                          <div>
+                            <div className="text-white font-semibold text-xs">Análisis</div>
+                            <div className="text-green-300 text-xs">Completado</div>
+                          </div>
+                        </div>
+                        
+                        {/* Progreso del análisis */}
+                        <div className="space-y-1">
+                          <div className="flex justify-between text-xs">
+                            <span className="text-gray-300">Rostro</span>
+                            <span className="text-green-400">✓</span>
+                          </div>
+                          <div className="flex justify-between text-xs">
+                            <span className="text-gray-300">Cabello</span>
+                            <span className="text-green-400">✓</span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Recomendación */}
+                      <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg p-2 border border-blue-500/30">
+                        <div className="text-center mb-2">
+                          <div className="text-white font-bold text-xs">Fade Clásico</div>
+                          <div className="text-blue-300 text-xs">Recomendación</div>
+                        </div>
+                        
+                        <div className="space-y-1">
+                          <div className="flex justify-between text-xs">
+                            <span className="text-gray-300">Compatibilidad</span>
+                            <span className="text-green-400 font-bold">95%</span>
+                          </div>
+                          <div className="flex justify-between text-xs">
+                            <span className="text-gray-300">Dificultad</span>
+                            <span className="text-yellow-400">Media</span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Estilos alternativos */}
+                      <div className="bg-gray-800 rounded-lg p-2">
+                        <div className="text-white font-semibold text-xs mb-1">Alternativos</div>
+                        <div className="space-y-1">
+                          <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
+                            <span className="text-white text-xs">Pompadour</span>
+                            <span className="text-green-400 text-xs">87%</span>
+                          </div>
+                          <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
+                            <span className="text-white text-xs">Militar</span>
+                            <span className="text-green-400 text-xs">82%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="bg-white/20 rounded-lg p-2">
-                <div className="text-xs font-medium">Compatibilidad: 95%</div>
               </div>
             </div>
           </div>
@@ -191,19 +399,96 @@ export default function BarberTrackLanding() {
       description:
         "Mantén un registro completo de tus visitas, guarda tus barberías favoritas y accede rápidamente a tus barberos de confianza. Tu historial siempre disponible con fotos de resultados, calificaciones y notas personales para cada visita.",
       content: (
-        <div className="h-full w-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center text-white rounded-lg">
-          <div className="p-8 text-center">
-            <Heart className="w-16 h-16 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-2">Tus Favoritos</h3>
-            <p className="text-sm opacity-90">Siempre a tu alcance</p>
-            <div className="mt-4 space-y-2">
-              <div className="bg-white/20 rounded-lg p-2 text-left">
-                <div className="text-sm font-bold">Barbería Elite ⭐</div>
-                <div className="text-xs font-medium">Última visita: 15 Dic</div>
+        <div className="h-full w-full bg-gradient-to-br from-gray-900 via-orange-900 to-gray-900 flex items-center justify-center text-white rounded-lg relative overflow-hidden scrollbar-hide">
+          {/* Efecto de fondo */}
+          <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-red-500/20"></div>
+          
+          {/* Mock de teléfono horizontal con favoritos */}
+          <div className="relative z-10 w-full h-full flex items-center justify-center p-4">
+            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+              <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
+                <div className="bg-gray-800 rounded-[1.5rem] p-1">
+                  <div className="bg-black rounded-[1rem] overflow-hidden">
+                    {/* Barra de estado */}
+                    <div className="bg-gray-900 h-4 flex items-center justify-between px-2 text-white text-xs">
+                      <span>11:15</span>
+                      <div className="flex items-center space-x-1">
+                        <div className="w-2 h-2 bg-white rounded-sm"></div>
+                        <span>93%</span>
+                      </div>
+                    </div>
+                    
+                    {/* Header de la app */}
+                    <div className="bg-gradient-to-r from-orange-600 to-red-600 px-2 py-1 flex items-center justify-between">
+                      <div className="flex items-center space-x-1">
+                        <Heart className="w-3 h-3 text-white" />
+                        <span className="text-white text-xs font-medium">Favoritos</span>
+                      </div>
+                      <div className="w-3 h-3 bg-white rounded"></div>
+                    </div>
+                    
+                    {/* Contenido principal */}
+                    <div className="p-2 space-y-2">
+                      {/* Favoritos */}
+                      <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-lg p-2 border border-orange-500/30">
+                        <div className="text-center mb-2">
+                          <div className="text-white font-bold text-xs">Tus Favoritos</div>
+                          <div className="text-orange-300 text-xs">Siempre a tu alcance</div>
+                        </div>
+                        
+                        {/* Lista de favoritos */}
+                        <div className="space-y-1.5">
+                          <div className="bg-white/10 rounded p-1.5">
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center space-x-1">
+                                <Star className="w-3 h-3 text-yellow-400" />
+                                <div>
+                                  <div className="text-white font-bold text-xs">Barbería Elite</div>
+                                  <div className="text-orange-300 text-xs">15 Dic</div>
+                                </div>
+                              </div>
+                              <div className="text-green-400 text-xs">⭐</div>
+                            </div>
+                          </div>
+                          
+                          <div className="bg-white/10 rounded p-1.5">
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center space-x-1">
+                                <Star className="w-3 h-3 text-yellow-400" />
+                                <div>
+                                  <div className="text-white font-bold text-xs">Style Masters</div>
+                                  <div className="text-orange-300 text-xs">8 Dic</div>
+                                </div>
+                              </div>
+                              <div className="text-green-400 text-xs">⭐</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Historial reciente */}
+                      <div className="bg-gray-800 rounded-lg p-2">
+                        <div className="text-white font-semibold text-xs mb-1">Historial</div>
+                        <div className="space-y-1">
+                          <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
+                            <div>
+                              <div className="text-white text-xs">Corte + Barba</div>
+                              <div className="text-gray-400 text-xs">Elite - 15 Dic</div>
+                            </div>
+                            <div className="text-green-400 text-xs">4.9★</div>
+                          </div>
+                          <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
+                            <div>
+                              <div className="text-white text-xs">Tratamiento</div>
+                              <div className="text-gray-400 text-xs">Style - 8 Dic</div>
+                            </div>
+                            <div className="text-green-400 text-xs">4.8★</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div className="bg-white/20 rounded-lg p-2 text-left">
-                <div className="text-sm font-bold">Style Masters ⭐</div>
-                <div className="text-xs font-medium">Última visita: 8 Dic</div>
               </div>
             </div>
           </div>
@@ -246,7 +531,7 @@ export default function BarberTrackLanding() {
   ]
 
   return (
-    <div className="min-h-screen bg-gray-950">
+    <div className="min-h-screen bg-gray-950 scrollbar-hide">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-gray-950/95 backdrop-blur-md border-b border-gray-800/50 z-50">
         <div className="container mx-auto px-6 py-4">
