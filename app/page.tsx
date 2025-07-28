@@ -122,81 +122,14 @@ export default function BarberTrackLanding() {
           {/* Efecto de fondo */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-cyan-500/20"></div>
           
-          {/* Mock de teléfono compacto */}
-          <div className="relative z-10 w-full h-full flex items-center justify-center p-2">
-            <div className="w-full max-w-[280px] sm:max-w-[320px] md:max-w-[360px]">
-              <div className="bg-gray-900 rounded-[1.5rem] p-1.5 shadow-2xl border border-gray-700">
-                <div className="bg-gray-800 rounded-[1rem] p-0.5">
-                  <div className="bg-black rounded-[0.75rem] overflow-hidden">
-                    {/* Barra de estado */}
-                    <div className="bg-gray-900 h-4 flex items-center justify-between px-2 text-white text-xs">
-                      <span>11:15</span>
-                      <div className="flex items-center space-x-1">
-                        <div className="w-2 h-2 bg-white rounded-sm"></div>
-                        <span>93%</span>
-                      </div>
-                    </div>
-                    
-                    {/* Header de la app */}
-                    <div className="bg-blue-600 px-2 py-1 flex items-center justify-between">
-                      <div className="flex items-center space-x-1">
-                        <MapPin className="w-3 h-3 text-white" />
-                        <span className="text-white text-xs font-medium">Mapa</span>
-                      </div>
-                      <div className="w-3 h-3 bg-white rounded"></div>
-                    </div>
-                    
-                    {/* Mapa simplificado */}
-                    <div className="relative bg-gradient-to-br from-blue-100 to-blue-200 p-2">
-                      {/* Calles */}
-                      <div className="space-y-1 mb-2">
-                        <div className="h-0.5 bg-gray-400 rounded"></div>
-                        <div className="h-0.5 bg-gray-400 rounded w-3/4"></div>
-                        <div className="h-0.5 bg-gray-400 rounded w-1/2"></div>
-                      </div>
-                      
-                      {/* Marcadores */}
-                      <div className="relative">
-                        <div className="absolute top-1 left-2">
-                          <div className="w-4 h-4 bg-blue-600 rounded-full border border-white flex items-center justify-center">
-                            <div className="w-1 h-1 bg-white rounded-sm"></div>
-                          </div>
-                        </div>
-                        <div className="absolute top-3 right-3">
-                          <div className="w-4 h-4 bg-blue-600 rounded-full border border-white flex items-center justify-center">
-                            <div className="w-1 h-1 bg-white rounded-sm"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    {/* Lista compacta */}
-                    <div className="bg-white p-2 space-y-1">
-                      <div className="flex items-center justify-between p-1 bg-gray-50 rounded">
-                        <div className="flex items-center space-x-1">
-                          <Star className="w-3 h-3 text-yellow-400" />
-                          <div>
-                            <div className="text-xs font-medium text-gray-900">Barbería Elite</div>
-                            <div className="text-xs text-gray-500">4.9★</div>
-                          </div>
-                        </div>
-                        <div className="text-xs text-blue-600">Disponible</div>
-                      </div>
-                      
-                      <div className="flex items-center justify-between p-1 bg-gray-50 rounded">
-                        <div className="flex items-center space-x-1">
-                          <Star className="w-3 h-3 text-yellow-400" />
-                          <div>
-                            <div className="text-xs font-medium text-gray-900">Style Masters</div>
-                            <div className="text-xs text-gray-500">4.8★</div>
-                          </div>
-                        </div>
-                        <div className="text-xs text-blue-600">Disponible</div>
-                      </div>
-                </div>
+          {/* Icono representativo */}
+          <div className="relative z-10 w-full h-full flex items-center justify-center">
+            <div className="text-center">
+              <div className="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mb-4 shadow-2xl">
+                <MapPin className="w-12 h-12 text-white" />
               </div>
-                </div>
-              </div>
+              <div className="text-2xl font-bold text-white mb-2">Búsqueda Inteligente</div>
+              <div className="text-blue-300 text-sm">Geolocalización avanzada</div>
             </div>
           </div>
         </div>
@@ -211,82 +144,14 @@ export default function BarberTrackLanding() {
           {/* Efecto de fondo */}
           <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-500/20"></div>
           
-          {/* Mock de teléfono horizontal con reservas */}
-          <div className="relative z-10 w-full h-full flex items-center justify-center p-4">
-            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
-              <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
-                <div className="bg-gray-800 rounded-[1.5rem] p-1">
-                  <div className="bg-black rounded-[1rem] overflow-hidden">
-                    {/* Barra de estado */}
-                    <div className="bg-gray-900 h-4 flex items-center justify-between px-2 text-white text-xs">
-                      <span>11:15</span>
-                      <div className="flex items-center space-x-1">
-                        <div className="w-2 h-2 bg-white rounded-sm"></div>
-                        <span>93%</span>
-                      </div>
-                    </div>
-                    
-                    {/* Header de la app */}
-                    <div className="bg-gradient-to-r from-purple-600 to-pink-600 px-2 py-1 flex items-center justify-between">
-                      <div className="flex items-center space-x-1">
-                        <Calendar className="w-3 h-3 text-white" />
-                        <span className="text-white text-xs font-medium">Citas</span>
-                      </div>
-                      <div className="w-3 h-3 bg-white rounded"></div>
-                    </div>
-                    
-                    {/* Contenido principal */}
-                    <div className="p-2 space-y-2">
-                      {/* Cita actual */}
-                      <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-lg p-2 border border-purple-500/30">
-                        <div className="text-center mb-2">
-                          <div className="text-white font-bold text-xs">Reserva Fácil</div>
-                          <div className="text-purple-300 text-xs">Tu cita en segundos</div>
-                        </div>
-                        
-                        {/* Detalles de la cita */}
-                        <div className="bg-white/10 rounded p-1.5 space-y-1">
-                          <div className="flex items-center space-x-1 text-white text-xs">
-                            <div className="w-3 h-3 bg-white rounded flex items-center justify-center">
-                              <div className="w-1.5 h-1.5 bg-purple-600 rounded-sm"></div>
-                            </div>
-                            <span>Hoy, 15:30</span>
-                          </div>
-                          <div className="flex items-center space-x-1 text-white text-xs">
-                            <div className="w-3 h-3 bg-white rounded flex items-center justify-center">
-                              <div className="w-1.5 h-1.5 bg-purple-600 rounded-sm"></div>
-                            </div>
-                            <span>Corte + Barba</span>
-                          </div>
-                          <div className="flex items-center space-x-1 text-white text-xs">
-                            <div className="w-3 h-3 bg-white rounded flex items-center justify-center">
-                              <div className="w-1.5 h-1.5 bg-purple-600 rounded-sm"></div>
-                            </div>
-                            <span>Carlos Mendoza</span>
-                          </div>
-                          <div className="mt-1">
-                            <div className="bg-green-500 text-white rounded px-1.5 py-0.5 text-xs font-semibold text-center">
-                              Confirmado
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      {/* Próxima cita */}
-                      <div className="bg-gray-800 rounded-lg p-2">
-                        <div className="text-white font-semibold text-xs mb-1">Próxima</div>
-                        <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
-                          <div>
-                            <div className="text-white text-xs">Mañana, 10:00</div>
-                            <div className="text-gray-400 text-xs">Corte Clásico</div>
-                          </div>
-                          <div className="text-green-400 text-xs">Confirmado</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          {/* Icono representativo */}
+          <div className="relative z-10 w-full h-full flex items-center justify-center">
+            <div className="text-center">
+              <div className="w-24 h-24 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mb-4 shadow-2xl">
+                <Calendar className="w-12 h-12 text-white" />
               </div>
+              <div className="text-2xl font-bold text-white mb-2">Reservas Instantáneas</div>
+              <div className="text-purple-300 text-sm">Confirmación en tiempo real</div>
             </div>
           </div>
         </div>
@@ -301,94 +166,14 @@ export default function BarberTrackLanding() {
           {/* Efecto de fondo */}
           <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-blue-500/20"></div>
           
-          {/* Mock de teléfono horizontal con IA */}
-          <div className="relative z-10 w-full h-full flex items-center justify-center p-4">
-            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
-              <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
-                <div className="bg-gray-800 rounded-[1.5rem] p-1">
-                  <div className="bg-black rounded-[1rem] overflow-hidden">
-                    {/* Barra de estado */}
-                    <div className="bg-gray-900 h-4 flex items-center justify-between px-2 text-white text-xs">
-                      <span>11:15</span>
-                      <div className="flex items-center space-x-1">
-                        <div className="w-2 h-2 bg-white rounded-sm"></div>
-                        <span>93%</span>
-                      </div>
-                    </div>
-                    
-                    {/* Header de la app */}
-                    <div className="bg-gradient-to-r from-green-600 to-blue-600 px-2 py-1 flex items-center justify-between">
-                      <div className="flex items-center space-x-1">
-                        <Brain className="w-3 h-3 text-white" />
-                        <span className="text-white text-xs font-medium">IA</span>
-                      </div>
-                      <div className="w-3 h-3 bg-white rounded"></div>
-                    </div>
-                    
-                    {/* Contenido principal */}
-                    <div className="p-2 space-y-2">
-                      {/* Análisis facial */}
-                      <div className="bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-lg p-2 border border-green-500/30">
-                        <div className="flex items-center space-x-2 mb-2">
-                          <div className="w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
-                            <div className="w-2.5 h-2.5 bg-white rounded-sm"></div>
-                          </div>
-                          <div>
-                            <div className="text-white font-semibold text-xs">Análisis</div>
-                            <div className="text-green-300 text-xs">Completado</div>
-                          </div>
-                        </div>
-                        
-                        {/* Progreso del análisis */}
-                        <div className="space-y-1">
-                          <div className="flex justify-between text-xs">
-                            <span className="text-gray-300">Rostro</span>
-                            <span className="text-green-400">✓</span>
-                          </div>
-                          <div className="flex justify-between text-xs">
-                            <span className="text-gray-300">Cabello</span>
-                            <span className="text-green-400">✓</span>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      {/* Recomendación */}
-                      <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg p-2 border border-blue-500/30">
-                        <div className="text-center mb-2">
-                          <div className="text-white font-bold text-xs">Fade Clásico</div>
-                          <div className="text-blue-300 text-xs">Recomendación</div>
-                        </div>
-                        
-                        <div className="space-y-1">
-                          <div className="flex justify-between text-xs">
-                            <span className="text-gray-300">Compatibilidad</span>
-                            <span className="text-green-400 font-bold">95%</span>
-                          </div>
-                          <div className="flex justify-between text-xs">
-                            <span className="text-gray-300">Dificultad</span>
-                            <span className="text-yellow-400">Media</span>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      {/* Estilos alternativos */}
-                      <div className="bg-gray-800 rounded-lg p-2">
-                        <div className="text-white font-semibold text-xs mb-1">Alternativos</div>
-                        <div className="space-y-1">
-                          <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
-                            <span className="text-white text-xs">Pompadour</span>
-                            <span className="text-green-400 text-xs">87%</span>
-                          </div>
-                          <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
-                            <span className="text-white text-xs">Militar</span>
-                            <span className="text-green-400 text-xs">82%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+          {/* Icono representativo */}
+          <div className="relative z-10 w-full h-full flex items-center justify-center">
+            <div className="text-center">
+              <div className="w-24 h-24 bg-gradient-to-r from-green-600 to-blue-600 rounded-full flex items-center justify-center mb-4 shadow-2xl">
+                <Brain className="w-12 h-12 text-white" />
               </div>
-              </div>
+              <div className="text-2xl font-bold text-white mb-2">IA Consultor de Estilo</div>
+              <div className="text-green-300 text-sm">Análisis facial avanzado</div>
             </div>
           </div>
         </div>
@@ -403,93 +188,14 @@ export default function BarberTrackLanding() {
           {/* Efecto de fondo */}
           <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-red-500/20"></div>
           
-          {/* Mock de teléfono horizontal con favoritos */}
-          <div className="relative z-10 w-full h-full flex items-center justify-center p-4">
-            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
-              <div className="bg-gray-900 rounded-[2rem] p-2 shadow-2xl border border-gray-700">
-                <div className="bg-gray-800 rounded-[1.5rem] p-1">
-                  <div className="bg-black rounded-[1rem] overflow-hidden">
-                    {/* Barra de estado */}
-                    <div className="bg-gray-900 h-4 flex items-center justify-between px-2 text-white text-xs">
-                      <span>11:15</span>
-                      <div className="flex items-center space-x-1">
-                        <div className="w-2 h-2 bg-white rounded-sm"></div>
-                        <span>93%</span>
-                      </div>
-                    </div>
-                    
-                    {/* Header de la app */}
-                    <div className="bg-gradient-to-r from-orange-600 to-red-600 px-2 py-1 flex items-center justify-between">
-                      <div className="flex items-center space-x-1">
-                        <Heart className="w-3 h-3 text-white" />
-                        <span className="text-white text-xs font-medium">Favoritos</span>
-                      </div>
-                      <div className="w-3 h-3 bg-white rounded"></div>
-                    </div>
-                    
-                    {/* Contenido principal */}
-                    <div className="p-2 space-y-2">
-                      {/* Favoritos */}
-                      <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-lg p-2 border border-orange-500/30">
-                        <div className="text-center mb-2">
-                          <div className="text-white font-bold text-xs">Tus Favoritos</div>
-                          <div className="text-orange-300 text-xs">Siempre a tu alcance</div>
-                        </div>
-                        
-                        {/* Lista de favoritos */}
-                        <div className="space-y-1.5">
-                          <div className="bg-white/10 rounded p-1.5">
-                            <div className="flex items-center justify-between">
-                              <div className="flex items-center space-x-1">
-                                <Star className="w-3 h-3 text-yellow-400" />
-                                <div>
-                                  <div className="text-white font-bold text-xs">Barbería Elite</div>
-                                  <div className="text-orange-300 text-xs">15 Dic</div>
-                                </div>
-                              </div>
-                              <div className="text-green-400 text-xs">⭐</div>
-                            </div>
-                          </div>
-                          
-                          <div className="bg-white/10 rounded p-1.5">
-                            <div className="flex items-center justify-between">
-                              <div className="flex items-center space-x-1">
-                                <Star className="w-3 h-3 text-yellow-400" />
-                                <div>
-                                  <div className="text-white font-bold text-xs">Style Masters</div>
-                                  <div className="text-orange-300 text-xs">8 Dic</div>
-                                </div>
-                              </div>
-                              <div className="text-green-400 text-xs">⭐</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      {/* Historial reciente */}
-                      <div className="bg-gray-800 rounded-lg p-2">
-                        <div className="text-white font-semibold text-xs mb-1">Historial</div>
-                        <div className="space-y-1">
-                          <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
-                            <div>
-                              <div className="text-white text-xs">Corte + Barba</div>
-                              <div className="text-gray-400 text-xs">Elite - 15 Dic</div>
-                            </div>
-                            <div className="text-green-400 text-xs">4.9★</div>
-                          </div>
-                          <div className="flex items-center justify-between p-1 bg-gray-700 rounded">
-                            <div>
-                              <div className="text-white text-xs">Tratamiento</div>
-                              <div className="text-gray-400 text-xs">Style - 8 Dic</div>
-                            </div>
-                            <div className="text-green-400 text-xs">4.8★</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+          {/* Icono representativo */}
+          <div className="relative z-10 w-full h-full flex items-center justify-center">
+            <div className="text-center">
+              <div className="w-24 h-24 bg-gradient-to-r from-orange-600 to-red-600 rounded-full flex items-center justify-center mb-4 shadow-2xl">
+                <Heart className="w-12 h-12 text-white" />
               </div>
-              </div>
+              <div className="text-2xl font-bold text-white mb-2">Historial y Favoritos</div>
+              <div className="text-orange-300 text-sm">Seguimiento personalizado</div>
             </div>
           </div>
         </div>
